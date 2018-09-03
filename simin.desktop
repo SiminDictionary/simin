@@ -1,0 +1,17 @@
+[Desktop Entry]
+Actions=Open;
+Comment[en_US]=Multi Language Dictionary
+Comment=Multi Language Dictionary
+Exec=simin
+GenericName[en_US]=Dictionary
+GenericName=Dictionary
+Keywords=Dict;Dictionary
+Name[en_US]=Simin Dictionary
+Name=Simin Dictionary
+Name[fa]=سیمین
+Terminal=false
+Type=Application
+Categories=Utility;
+StartupNotify=true
+Icon=/opt/simin/icons/simin.png
+

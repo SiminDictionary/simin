@@ -1,0 +1,2 @@
+22|English|1|s|en
+70|Persian|1|t|fa

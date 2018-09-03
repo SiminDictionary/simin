@@ -1,0 +1,2 @@
+#!/bin/bash
+cd /opt/simin/ ; python3 main.py
