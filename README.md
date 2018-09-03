@@ -1,5 +1,6 @@
 # About
-- Simin is a multi-language dictionary which is written in python. \n Simin uses Google Translate for translating unknown words/sentences until they are not in the databses.
+- Simin is a multi-language dictionary which is written in python. 
+- Simin uses Google Translate for translating unknown words/sentences until they are not in the databses.
 - Simin is a free and open source software. so we count on your own-made databases ;)
 
 # Installation
