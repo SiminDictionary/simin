@@ -13,8 +13,8 @@
 - To Uninstall : ``` sudo bash /opt/simin/uninstall.sh ```
 
 # Tips
-- Use `Ctrl+Return` Button to translate the entered word/sentence
-- Use `Ctrl+Q` Button to quit. 
+- Use `Ctrl+Return` button to translate the entered word/sentence
+- Use `Ctrl+Q` button to quit. 
 
 # Credit
 
