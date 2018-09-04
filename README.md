@@ -6,7 +6,7 @@
 # Installation
 
 - You must have `python3` and `pyqt5` installed in your system.
-- Then ``` git clone https://gitlab.com/SiminDictionary/Simin.git ; cd Simin ; sudo bash install.sh ```
+- Then ``` git clone https://github.com/SiminDictionary/simin.git ; cd simin ; sudo bash install.sh ```
 
 # Uninstall
 
