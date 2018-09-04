@@ -12,6 +12,10 @@
 
 - To Uninstall : ``` sudo bash /opt/simin/uninstall.sh ```
 
+# Tips
+- Use `Ctrl+Return` Button to translate the entered word/sentence
+- Use `Ctrl+Q` Button to quit. 
+
 # Credit
 
 - SeedPuller - Email : SeedPuller@gmail.com
