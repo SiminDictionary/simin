@@ -52,7 +52,6 @@ class myprog(QMainWindow, Ui_MainWindow):
         tray_menu.addAction(quit_action)
         self.tray_icon.setContextMenu(tray_menu)
         self.tray_icon.show()
-
         self.shortcut = QShortcut(QKeySequence("Ctrl+return"), self)
         self.shortcut.activated.connect(lambda:self.trnsl(None))
         self.shortcut2 = QShortcut(QKeySequence("Ctrl+q"), self)
@@ -120,7 +119,10 @@ class myprog(QMainWindow, Ui_MainWindow):
                 if lang.split("|")[1] == tl:
                     tl = lang.split("|")[2+num2]
             gtrans = Gtranslate().translate(sl, tl, word)
-            self.textEdit_2.setText("{0}\n\n{1}".format(gtrans["exact"], str(gtrans["othermean"]).replace("'", "")))
+            othermeans = str(gtrans["othermean"]).replace("'", "")
+            if othermeans == "None":
+                othermeans = ""
+            self.textEdit_2.setText("{0}\n\n{1}".format(gtrans["exact"], othermeans))
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
