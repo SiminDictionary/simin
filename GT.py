@@ -10,6 +10,7 @@ class Gtranslate():
             if dbm is not False:
                 return {"exact":dbm[2], "pron":dbm[4], "othermean":dbm[3], "Error":None}
         try:
+            word = str(word).replace(".", "")
             treq = requests.get(url="https://translate.google.com//translate_a/single?client=gtx&ie=UTF-8&oe=UTF-8&dt=bd&dt=ex&dt=ld&dt=md&dt=rw&dt=rm&dt=ss&dt=t&dt=at&dt=360000c&sl={0}sl&tl={1}tl&hl={2}&q={3}".format(sl, tl, tl, word), headers={"user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36"}, proxies={})
 
         except:
