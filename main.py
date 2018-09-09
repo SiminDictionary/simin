@@ -125,9 +125,12 @@ class myprog(QMainWindow, Ui_MainWindow):
             self.textEdit_2.setText("{0}\n\n{1}".format(gtrans["exact"], othermeans))
 
 if __name__ == '__main__':
+    if len(sys.argv) > 1:
+        word = sys.argv[1]
+        gtrans = Gtranslate().translate("", "fa", word, False)
+        print(gtrans['exact'])
+        sys.exit()
     app = QApplication(sys.argv)
     window = myprog()
     window.show()
-    if len(sys.argv) > 1:
-        window.trnsl(sys.argv[1])
     sys.exit(app.exec_())
