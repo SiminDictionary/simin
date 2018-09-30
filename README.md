@@ -6,7 +6,7 @@
 # Installation
 
 - You must have `python3`,`pyqt5`,`notify-send` installed in your system.
-- Then ``` git clone https://github.com/SiminDictionary/simin.git ; cd simin ; sudo bash install.sh ```
+- Then ``` git clone https://github.com/SiminDictionary/simin.git ; cd simin ; bash install.sh ```
 
 # Uninstall
 
