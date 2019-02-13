@@ -1,4 +1,4 @@
 #!/bin/bash
 XCLIP=$(xclip -o -select primary)
-SIMINRES=$(cd /opt/simin/ ; python3 main.py $XCLIP)
+SIMINRES=$(cd /opt/simin/ ; python3 main.py "${XCLIP}")
 notify-send -t 5000 -a Simin -i /opt/simin/icons/simin.png $XCLIP "${SIMINRES}"
